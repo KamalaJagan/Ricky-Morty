@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.PivotTable {
+  font-family: 'Arial', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+}

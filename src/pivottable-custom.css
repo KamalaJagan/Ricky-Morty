@@ -1,0 +1,42 @@
+
+.PivotTable {
+    font-family: 'Arial', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .PivotTable h1{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .PivotTable th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .PivotTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .PivotTable tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .PivotTable .PivotTable-value {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .PivotTable .PivotTable-value.neg {
+    color: #dc3545;
+  }
+  
+  .PivotTable .PivotTable-value.pos {
+    color: #28a745;
+  }
+  
+ 
